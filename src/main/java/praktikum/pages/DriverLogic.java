@@ -55,4 +55,5 @@ public abstract class DriverLogic {
     protected By inputLocatorByPlaceHolder(String placeHolder) {
         return By.xpath(String.format(".//input[@placeholder = '%s']", placeHolder));
     }
+
 }

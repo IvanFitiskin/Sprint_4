@@ -65,4 +65,5 @@ public class AboutRentFormPage extends DriverLogic {
 
         clickElement(orderedButtonLocator);
     }
+
 }

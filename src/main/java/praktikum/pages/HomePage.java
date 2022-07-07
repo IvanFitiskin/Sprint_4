@@ -57,4 +57,5 @@ public class HomePage extends DriverLogic {
         scrollElementTo(orderButtonInHeaderLocator);
         clickElement(orderButtonInHeaderLocator);
     }
+
 }
