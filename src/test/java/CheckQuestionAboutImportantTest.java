@@ -44,7 +44,7 @@ public class CheckQuestionAboutImportantTest {
     }
 
     @Test
-    public void test() {
+    public void testCheckQuestionAboutImportant() {
         HomePage homePage = new HomePage(driver);
         homePage.waitForLoadHomePage();
         homePage.submitCookies();

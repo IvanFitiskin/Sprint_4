@@ -69,7 +69,7 @@ public class OrderKickScooterTest {
     }
 
     @Test
-    public void test() {
+    public void testOrderKickScooter() {
         HomePage homePage = new HomePage(driver);
         homePage.waitForLoadHomePage();
         homePage.submitCookies();

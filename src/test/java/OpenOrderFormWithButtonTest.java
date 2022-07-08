@@ -7,7 +7,7 @@ import praktikum.config.TestConfig;
 import praktikum.pages.HomePage;
 import praktikum.pages.OrderFormPage;
 
-public class OpenOrderFormWithButton {
+public class OpenOrderFormWithButtonTest {
 
     private WebDriver driver;
     private String url = TestConfig.URL;
@@ -19,7 +19,7 @@ public class OpenOrderFormWithButton {
     }
 
     @Test
-    public void test() {
+    public void testOpenOrderFormWithButton() {
         HomePage homePage = new HomePage(driver);
         homePage.waitForLoadHomePage();
         homePage.submitCookies();
